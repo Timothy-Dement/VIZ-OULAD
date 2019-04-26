@@ -52,7 +52,7 @@ for mod in mod_paths:
         hm = sns.heatmap(pivot, vmin=0, vmax=1, annot=True, fmt='.2f', cbar=False)
 
         hm.set_title(f'{mod.upper()} : {met.capitalize()}', fontsize=25)
-        hm.set(xlabel='Classifier + Technique', ylabel='Attribute Set')
+        hm.set(xlabel='Attribute Set', ylabel='Classifier + Technique')
         hm.tick_params(labelsize=15)
 
         hm.figure.savefig(f'./charts/skl_heatmaps/{mod}-{met}_skl_heatmap.png')

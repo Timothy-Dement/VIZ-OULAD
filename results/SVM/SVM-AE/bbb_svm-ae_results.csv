@@ -3,7 +3,7 @@ bbb,asmt,svm,ae,accuracy,0.8853485838779956
 bbb,asmt,svm,ae,fscore,0.0
 bbb,asmt,svm,ae,precision,0.0
 bbb,asmt,svm,ae,recall,0.0
-bbb,stdnt,svm,ae,accuracy,0.8850762527233116
+bbb,stdnt,svm,ae,accuracy,0.8853485838779956
 bbb,stdnt,svm,ae,fscore,0.0
 bbb,stdnt,svm,ae,precision,0.0
 bbb,stdnt,svm,ae,recall,0.0
